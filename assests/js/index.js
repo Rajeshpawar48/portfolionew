@@ -64,8 +64,8 @@ gsap.to('.skills', {
         scroller: 'body',
         // markers: true,
         start: 'top -780',
-        // scrub: 2,
-        // pin: 'true'
+        scrub: 1,
+        pin: 'true'
     },
     duration: 1
 })
