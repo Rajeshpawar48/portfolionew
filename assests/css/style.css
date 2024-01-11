@@ -171,7 +171,7 @@ html {
         /* padding-top: -50px; */
         align-items: start;
         align-items: start;
-        background-color: green;
+        /* background-color: green; */
     }
 
     .linkin {
@@ -285,7 +285,7 @@ html {
     /* gap: 30px; */
 
     ;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     font-size: 2vw;
     color: #6b47cd;
