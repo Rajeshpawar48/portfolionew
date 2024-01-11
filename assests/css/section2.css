@@ -1,20 +1,80 @@
-@media only screen and (min-width:100px) and (max-width:768px) {
+ @media only screen and (min-width:100px) and (max-width:768px) {
     .section2inner {
         flex-direction: column;
         justify-content: center;
         text-align: center;
         width: 100%;
+        height: auto;
     }
 
     .section2 {
         width: 100%;
-        height: 1300px;
-        /* background-color: green;; */
+    height: auto;
     }
 
+
+    .right{
+        /* background-color: red; */
+        /* padding-bottom: 100px; */
+        justify-content: center;
+        align-items: start;
+        /* padding-bottom: 20px; */
+        margin-top: -70px;
+        text-align: center;
+        width: 100%
+        ;
+    }
+.left{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+    .parentall{
+        justify-content: center;
+        text-align: start;
+        /* background-color: green; */
+        align-items: start;
+        display: grid;
+        padding-top: -20px;
+        justify-content: center;
+    }
+
+    .rating{
+        /* background-color: blue; */
+        justify-content: center;
+        align-items: start;
+        display: flex;
+       padding: 0;
+        /* padding-bottom: 70px; */
+    }
+
+    .h2{
+        /* display: flex; */
+        padding: 0px;
+        justify-content: center;
+        text-align:center;
+    }
+.paragraph{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.paragraph >p{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+  
+.btn{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+};/*
     .left {
-        /* order: 0; */
+    
         width: 100%;
+        background-color: red;
         justify-content: center;
         text-align: center;
         ;
@@ -23,9 +83,11 @@
 
 
     .right {
+        background-color: green;
         width: 100%;
         justify-content: center;
         margin-bottom: 300px;
+        height: 300px;
     }
 
     .right>.h2 {
@@ -57,7 +119,7 @@
     }
     .btn{
         width: 100%;
-        /* padding: 5%;; */
+  
         display: flex;
         justify-content: center;
     }
@@ -65,4 +127,4 @@
         padding: 3%;
         border-radius: 5px;
     }
-}
+} */
