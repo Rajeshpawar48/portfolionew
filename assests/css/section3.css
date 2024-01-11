@@ -34,9 +34,36 @@
 }
 .react {
     width: 90%;
-    ;
+    padding: 2%;;
 }
 .node {
     width: 90%;
-    ;
+    padding: 2%;;
+}
+
+.services{
+    margin-top: 100px;;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.webdev{
+    width: 90%;
+  
+}
+
+.uiux{
+    width: 90%;
+}
+
+.graphic{
+    width: 90%;;
+}
+.appdev{
+    width: 90%;
 }
