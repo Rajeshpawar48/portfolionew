@@ -1,15 +1,22 @@
 .project {
     
-    display: flex;
+    /* display: block; */
     width: 100%;
+
 }
 
 @media only screen and (min-width:100px) and (max-with:768px) {
 .section5{
     display: block;
     background-color: red;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.ek{
+    /* width: 100%; */
 }
     .project {
+        flex-wrap: wrap;
         flex-direction: column;
         width: 100%;
         display: flex;

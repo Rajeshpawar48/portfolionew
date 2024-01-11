@@ -76,11 +76,11 @@ gsap.to('.services', {
     y: -160,
    
     scrollTrigger: {
-        markers: 'true',
+        // markers: 'true',
         trigger: 'services',
         scroller: 'body',
         start: 'top -1250',
-        scrub: 2,
+        scrub: 1,
         pin: 'true'
     },
     // duration:1
@@ -91,7 +91,7 @@ gsap.to('.contactform', {
     y: -80,
 
     scrollTrigger: {
-        markers: 'true',
+        // markers: 'true',
         trigger: 'contactform',
         scroller: 'body',
         start: 'top -2800',

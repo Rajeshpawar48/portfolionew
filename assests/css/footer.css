@@ -18,7 +18,8 @@
         height: 100%;
         padding: 5%;
         display: flex;
-
+justify-content: center;
+width: 100%;
     }
 
     .footerright {
