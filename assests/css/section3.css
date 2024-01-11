@@ -54,7 +54,8 @@
 
 .webdev{
     width: 90%;
-  
+  padding: 2%;
+  /* font-size: 1vw; */
 }
 
 .uiux{
@@ -66,4 +67,44 @@
 }
 .appdev{
     width: 90%;
+}
+
+@media only screen and (min-width:100px) and (max-width:768px){
+.webimg{
+    scale: 1;
+    /* padding-top: 10px; */
+   
+}
+.uiuximg{
+    scale: 1;
+}
+.graphicimg {
+    scale: 1;
+}
+.appimg {
+    scale: 1;
+}
+.uiuximg {
+    scale: 1;
+}
+.webinf h2{
+    font-size: 7vw;
+    padding: 2%;
+}
+.uiuxinf h2 {
+    font-size: 7vw;
+    padding: 2%;
+}
+
+.graphicinf h2 {
+    font-size: 7vw;
+    padding: 2%;
+}
+
+.appinf h2 {
+    font-size: 7vw;
+    padding: 2%;
+}
+
+
 }

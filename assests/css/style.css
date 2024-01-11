@@ -711,6 +711,8 @@ html {
     /* border: 1px solid black; */
     margin-top: 3%;
     padding: 3%;
+    display: block;
+    /* background-color: red; */
 }
 
 .projecthead {
@@ -727,8 +729,8 @@ html {
 .project {
     padding: 3%;
     display: flex;
-    ;
-    flex-wrap: wrap;
+    width: 100%;
+    /* flex-wrap: wrap; */
     gap: 20px;
     display: flex;
     justify-content: center;
@@ -957,7 +959,6 @@ form {
 .emailbox {
     margin-top: 15px;
 
-    /* padding-top: 10px; */
 }
 
 .messagebox {
@@ -1042,11 +1043,6 @@ footer {
     padding-left: 15px;
 }
 
-.fulname {
-    /* width: 30%; */
-    /* margin-left: 10px; */
-    /* background-color: red; */
-}
 
 .logo {
     /* width: 10%; */

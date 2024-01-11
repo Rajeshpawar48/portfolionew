@@ -120,7 +120,7 @@
         /* position: relative; */
         /* top: -20px; */
         /* position: relative; */
-        background-color: yellow;
+        background-color: azure;
         /* animation: move 2s linear infinite; */
     }
 
@@ -132,7 +132,8 @@
        top: 0;
        left: 0;
         animation: move 2s linear infinite;
-       background-color: rgba(255, 255, 255, 0.808);;;
+       background-color: rgba(255, 255, 255, 0.808);
+       animation-timing-function: ease ease-in-out;;
     }
  
     @keyframes move {
@@ -140,7 +141,7 @@
             transform: rotate(5deg);
         }
         20%{
-            transform: rotate(5deg);
+            transform: rotate(-5deg);
         }
     }
 
