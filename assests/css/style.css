@@ -165,13 +165,14 @@ padding-left:0.5%
         align-items: center;
         position: relative;
         text-align: center;
-        bottom: 150px;
+        bottom: 140px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         /* padding-top: -50px; */
         align-items: start;
         align-items: start;
+        background-color: green;
     }
 
     .linkin {
