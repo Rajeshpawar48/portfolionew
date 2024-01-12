@@ -66,11 +66,9 @@ html {
 .toggle {
     justify-content: start;
     width: 10%;
-    /* background-color: red; */
     text-align: start;
     padding-left: 5%;
     gap: 7px;
-    /* background: red; */
     padding-right: 13px;
 
 }
@@ -84,13 +82,10 @@ html {
     position: absolute;
     left: 0px;
     justify-content: center;
-    /* background-color: red; */
     text-align: center;
     top: 100%;
     transition: 1s;
-    /* margin-top: 100px; */
     background-color: #fff;
-    /* border: 1px solid black; */
     padding: 3%;
 
 }
@@ -728,9 +723,9 @@ html {
 
 .project {
     padding: 3%;
-    display: flex;
+
     width: 100%;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 20px;
     display: flex;
     justify-content: center;

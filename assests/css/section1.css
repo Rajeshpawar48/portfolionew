@@ -9,9 +9,31 @@
     }
 
     .toggle {
+        /* background-color: red; */
         display: flex;
-        margin-right: 10px;
-        padding-left: 0.5%
+        width: 100%;
+       justify-content: end;
+       text-align: end;
+       /* padding-left: 20px; */
+       /* margin-left: 20px; */
+    }
+
+    .toggle .dark {
+        display: flex;;
+        text-align: end;
+        width: 10%;
+        margin-left: 10px;
+        /* background-color:green; */
+        justify-content: end;
+        /* margin-left: 20px; */
+    }
+    .toggle .hamberger{
+        width: 10%;
+        justify-content: end;
+        /* background-color: yellow; */
+        text-align: end;
+        display: flex;
+        /* margin-left: 30px;; */
     }
 
     .h1 {
@@ -20,7 +42,9 @@
 
     .toggle button {
         font-size: 5vw;
-        margin-right: 10px;
+        margin-right: -8px;
+        scale: 1;
+        /* padding-left: 100px; */
     }
 
     .tp {
@@ -124,23 +148,25 @@
         /* animation: move 2s linear infinite; */
     }
 
-    .three::before{
+    .three::before {
         content: '';
-        position:absolute;
+        position: absolute;
         width: 100%;
         height: 100%;
-       top: 0;
-       left: 0;
+        top: 0;
+        left: 0;
         animation: move 2s linear infinite;
-       background-color: rgba(255, 255, 255, 0.808);
-       animation-timing-function: ease ease-in-out;;
+        background-color: rgba(255, 255, 255, 0.808);
+        animation-timing-function: ease ease-in-out;
+        ;
     }
- 
+
     @keyframes move {
-        10%{
+        10% {
             transform: rotate(5deg);
         }
-        20%{
+
+        20% {
             transform: rotate(-5deg);
         }
     }

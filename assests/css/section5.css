@@ -1,25 +1,63 @@
 .project {
-    
+
     /* display: block; */
     width: 100%;
-
-}
-
-@media only screen and (min-width:100px) and (max-with:768px) {
-.section5{
-    display: block;
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
     flex-wrap: wrap;
-    width: 100%;
+
 }
-.ek{
-    /* width: 100%; */
-}
-    .project {
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-        display: flex;
+
+@media only screen and (min-width:100px) and (max-width:768px) {
+    .section5 {
+        display: block;
         background-color: red;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .ek {
+        /* width: 100%; */
+    }
+
+    .project {
+        width: 100%;
+        display: block;
+        width: 100%;
+
+        padding: 20px;
+        gap: 20px;
+        /* margin: 20px; */
+    }
+
+    .ek {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .don {
+
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .tin {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .char {
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .pach {
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
     }
 }
