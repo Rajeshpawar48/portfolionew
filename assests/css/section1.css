@@ -3,7 +3,11 @@
         display: none;
         /* background-color: red; */
     }
-
+.header{
+    height:60px;
+    display: flex;;
+    align-items: center;
+}
     .hamberger {
         display: block;
     }

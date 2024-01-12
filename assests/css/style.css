@@ -45,7 +45,16 @@ html {
     padding-right: 15%;
     ;
 }
+.h1:after{
+    content: ' Pawar';
+    /* line-height: 0.4; */
 
+    /* margin-left: 100px; */
+    /* padding-left: 29px; */
+    position: absolute;
+    left:40px;
+    line-height: 0.6;
+}
 .menu {
     padding-left: 13%;
     width: 60%;
