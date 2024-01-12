@@ -1,19 +1,23 @@
 document.querySelector('.hamberger').addEventListener('click', function () {
     document.querySelector('ul').classList.toggle('newul');
-    // document.querySelector('.newul').style="transition:1s;top:100px"
+
 })
 
 
 document.querySelector('.dark').addEventListener('click', function () {
-    dark = document.querySelector('.dark');
-    dark.innerHTML = `<i class="fa-solid fa-sun "></i>`;
-    dark.classList.toggle('day');
 
-    document.querySelector('.day').innerHTML = `<i class="fa-regular fa-moon"></i>`;
+    // console.log(document.querySelector('.dark'));
+    document.querySelector('.dark').innerHTML = `<i class="fa-solid fa-sun "></i>`
+    document.querySelector('.dark').classList.toggle('p');
+    document.querySelector('.p').innerHTML = `<i class="fa-solid fa-moon "></i>`
 
-    // console.log(document.querySelector('.day').innerHTML)
+    document.querySelector('.main').classList.toggle('.white');
+    // document.querySelector('.main').style = "background:black"
 
 })
+
+//  dark.innerHTML = `<i class="fa-solid fa-sun "></i>`;
+// `<i class="fa-regular fa-moon"></i>`;
 
 gsap.to('.one', {
     y: -130,
@@ -72,9 +76,9 @@ gsap.to('.skills', {
 
 
 gsap.to('.services', {
-    
+
     y: -160,
-   
+
     scrollTrigger: {
         // markers: 'true',
         trigger: 'services',
@@ -100,3 +104,5 @@ gsap.to('.contactform', {
     },
     // duration:1
 })
+
+
