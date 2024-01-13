@@ -122,7 +122,8 @@ html {
 
 .menu .newul li:hover {
 
-    color: #6b47cd
+    color: #6b47cd;
+    /* background-color: azure; */
 }
 
 .toggle button {
@@ -212,7 +213,7 @@ html {
 
 .button {
     padding-top: 8%;
-
+/* border-radius: 30px; */
     /* border: 1px solid black; */
 }
 
@@ -949,6 +950,7 @@ html {
 
 .contacthead {
     /* padding: 1%; */
+    border-radius: 10px;
 }
 
 .contactform {

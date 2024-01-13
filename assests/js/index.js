@@ -1,3 +1,10 @@
+
+
+    // const scroll = new LocomotiveScroll({
+    //     el: document.querySelector('.main'),
+    // smooth: true
+    //     });
+
 document.querySelector('.hamberger').addEventListener('click', function () {
     document.querySelector('ul').classList.toggle('newul');
 
@@ -6,14 +13,32 @@ document.querySelector('.hamberger').addEventListener('click', function () {
 
 document.querySelector('.dark').addEventListener('click', function () {
 
-    // console.log(document.querySelector('.dark'));
+    console.log(document.querySelector('.dark'));
     document.querySelector('.dark').innerHTML = `<i class="fa-solid fa-sun "></i>`
     document.querySelector('.dark').classList.toggle('p');
-    document.querySelector('.p').innerHTML = `<i class="fa-solid fa-moon "></i>`
+    document.querySelector('.p').innerHTML = `<i class="fa-solid fa-sun "></i>`
 
-    document.querySelector('.main').classList.toggle('.white');
-    // document.querySelector('.main').style = "background:black"
+// if(classList='p'){
+// // alert('oky')
+// document.body.style="background:black;color:white";
+//     document.querySelector('.section1').style= "background:black;color:white";
+//     document.querySelector('.header').style = "background:black;color:white";
+//     document.querySelector('.section2').style = "background:black;color:white";
+//     document.querySelector('.section3').style = "background:black;color:black";
+//     document.querySelector('.scetion4').style = "background:black;color:black";
+//     document.querySelector('.section5').style = "background:black;color:black";
+//     document.querySelector('.section6').style = "background:black;color:white";
+//     document.querySelector('.footer').style = "background:black;color:white";
+//     document.querySelector('footer').style = "background:black;color:white";
 
+// }
+// document.querySelector('.p').addEventListener('click',function (){
+//     // alert()
+//     // classList.add('dark')
+
+//     document.querySelector('.p').classList.toggle('light');
+//     document.querySelector('.light').innerHTML =`<i class="fa-regular fa-moon"></i>`
+// })
 })
 
 //  dark.innerHTML = `<i class="fa-solid fa-sun "></i>`;
@@ -104,5 +129,4 @@ gsap.to('.contactform', {
     },
     // duration:1
 })
-
 

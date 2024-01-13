@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   
+
+  </style>
+
+  <script>
+
+
+    //  n=0;
+    //  if(n==0){
+    //   document.querySelector('ul').style="display:block";
+    //   console.log('block')
+    //   n=1;
+    //  }
+    // if(n==1){
+    //   document.querySelector('ul').style="display:none";
+    // // n=0;
+    //   console.log('none')
+    // }
+
+    'use strict'
+
+    // m.style="margin-top:width:80%;font-size:x-large;150px;background:royalblue;display:block;padding:10px;border:1px solid black;backgeound:skyblue"
+
+
+    // document.querySelector('.new').style="display:none"
+    // document.querySelector('ul').style="margin-top:width:80%;font-size:x-large;150px;background:royalblue;display:block;padding:10px;border:1px solid black;backgeound:skyblue"
+    // m.style="margin-top:150px;display:block;padding:10px;width:80%;;background:yellowgreen;border:1px solid black;backgeound:skyblue"
+  
+    // function box() {
+    //   let  a = 1;
+    //   if (a == 1) {
+    //      document.querySelector('.menu').style = "display:none";
+    //       a=0;
+    //   }
+    //   else{
+       
+    //     document.querySelector('.menu').style = "display:block";
+    //     a=1
+    //   }
+    // }
+
+    
+    // let a = 1;
+    //     function box() {
+    //         //    let aa= document.querySelector('.ek');
+
+    //         if (a == 1) {
+    //             document.querySelector('ul').style = "display:none;width:80%";
+    //             a=0;
+    //         }
+    //         else{
+    //           document.querySelector('.menu').style="width:100%;margin-top:00px"
+    //             document.querySelector('ul').style="display:block;margin-left:300px;margin-top:235px;padding:10px;background:skyblue;width:100%";
+    //              a=1;
+    //         }
+
+    //       //  document.querySelector('ul').style="margin-top:250px;;padding:10px;width:80%; border:1px solid black;background:skyblue;"
+    //       }
+function send(){
+   let inp=document.querySelector('#inp').value;
+   let inputbox=document.querySelector('.inputbox');
+   let li=document.createElement('li');
+  let x=document.createElement('p');
+
+  
+  x.innerHTML='x'
+
+// li.addEventListener('')
+
+
+
+
+
+
+
+
+
+
+
+  inputbox.append(x)
+li.innerHTML=inp
+   inputbox.appendChild(li);
+   console.log(inputbox);
+
+
+li.addEventListener('click',function(){
+  li.style="display:none"
+})
+
+   x.addEventListener('click',ok)
+
+   function ok(){
+   li.style="display:none";
+x.style="display:none"
+   }
+
+
+  
+
+   if(inp==""){
+    li.style="display:none";
+    x.style="display:none"
+   }
+
+
+
+    }
+
+
+    function press(event){
+     a=document.querySelector('.inp');
+      console.log(a.value)
+    }
+
+
+    // var list=document.querySelector('li').addEventListener('dbclick',function(){
+    //   list.innerHTML="oky"
+    // })
+  </script>
+
+  <style>
+
+    body{
+     
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+    }
+.main{
+border: 1px solid black;
+align-items: center;
+text-align: center;
+justify-content: center;
+display: block;
+width: 50%;
+padding: 15px;
+background-color: rgb(33, 13, 135);
+border-radius: 10px;
+}
+
+.inputbox{
+  /* padding: 5px; */
+  /* padding: 5px; width: 50%; */
+  /* width:200px; */
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+input{
+  padding: 5px;
+}
+
+button{
+  padding: 5px;
+}
+
+p{
+  background-color: red;
+  width: 20px;
+padding: 5px;
+ margin-top: 10px;
+ position: absolute;
+top:123px;
+left:500px
+ 
+}
+li{
+
+ text-align: center;
+justify-content: center;
+display: flex;
+  list-style: none;
+  background-color: #dadadafb;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+ 
+}
+
+p:hover{
+  scale:1.2;
+  color:white
+}
+.one{
+  /* width: 50%; */
+  padding: 15px;
+  border: 1px solid black;
+  background: blueviolet;
+  border-radius: 20px;
+}
+.main{
+  box-shadow: 10px 10px 10px 5px #675e5e;
+}
+  </style>
+</head>
+
+<body>
+
+
+<div class="main">
+
+<div class="one">
+  <input type="text" name="" id="inp" placeholder="Enter Here" onkeydown="press()">
+  <button onclick="send()">send</button>
+</div>
+
+
+  <div class="inputbox">
+
+  </div>
+</div>
+
+
+</body>
+
+</html>
