@@ -47,12 +47,17 @@ html {
     ;
 }
 
-/* .h1:after{
+.h1:after{
+  content: 'pawar';
+  color:#6b47cd;
+  position: relative;
+  top:20px;
   
-    position: absolute;
-    left:40px;
-    line-height: 0.6;
-} */
+    /* position: absolute; */
+    /* left:40px; */
+    line-height: 0.4;
+    right: 50px;
+}
 .menu {
     padding-left: 13%;
     width: 60%;
