@@ -758,14 +758,20 @@ html {
 }
 
 .ek {
+    background-image: url('/assests/img/Screenshot 2024-01-13 113950.png');
     width: 30%;
     height: 250px;
     /* border: 1px solid black; */
     overflow: hidden;
     background-color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .don {
+    background-image: url('/assests/img/flipkart.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 30%;
     height: 250px;
     /* border: 1px solid black; */
@@ -774,6 +780,9 @@ html {
 }
 
 .tin {
+    background-image: url(/assests/img/Screenshot\ 2024-01-14\ 102531.png);
+    background-size: cover;
+    ;
     width: 30%;
     height: 250px;
     /* border: 1px solid black; */
@@ -952,6 +961,9 @@ html {
     /* padding: 1%; */
     border-radius: 10px;
 }
+.contacthead h1{
+    border-radius:10px
+}
 
 .contactform {
     border-radius: 10px;
@@ -1103,4 +1115,24 @@ footer {
     text-align: center;
     ;
     align-items: center;
+}
+.linkin a{
+    color: #6b47cd;
+}
+
+.github a{
+    color: #6b47cd;
+}
+
+.telegram a{
+    color: #6b47cd;
+}
+
+.btn :nth-child(1){
+    border-radius: 10px;
+}
+
+li >a{
+    color: #6b47cd;
+    font-weight:600;
 }
