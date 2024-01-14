@@ -3,16 +3,46 @@ document.querySelector('.hamberger').addEventListener('click', function () {
 
 })
 
+function fun(){
+        document.querySelector('.section1').classList.toggle('light')
+    document.querySelector('.section2').classList.toggle('light')
+    document.querySelector('.section3').classList.toggle('light')
+    document.querySelector('.scetion4').classList.toggle('light2')
+    document.querySelector('.section5').classList.toggle('light')
+    document.querySelector('.section6').classList.toggle('light')
+    document.querySelector('.footer').classList.toggle('light5');
+    document.querySelector('.footerleft').classList.toggle('light');
+    document.querySelector('.footerright').classList.toggle('light');
 
-document.querySelector('.dark').addEventListener('click', function () {
 
-    console.log(document.querySelector('.dark'));
-    document.querySelector('.dark').innerHTML = `<i class="fa-solid fa-sun "></i>`
-    document.querySelector('.dark').classList.toggle('p');
-    document.querySelector('.p').innerHTML = `<i class="fa-solid fa-sun "></i>`
+// document.querySelector('.diwas').style='display:none'
 
-})
+    document.querySelector('.fa-moon').classList.toggle('diwas');
+    
+    document.querySelector('.diwas').innerHTML = `<i class="fa-solid fa-sun "></i>`;
 
+
+    document.querySelector('.diwas').addEventListener('click', function () {
+        this.innerHTML = '<i class="fa-regular fa-moon"></i>';
+    })
+} 
+
+
+// function fun() {
+    
+
+//     document.querySelector('body').classList.toggle('light')
+//     document.querySelector('.s').classList.toggle('diwas');
+//     document.querySelector('.diwas').innerHTML = '🗳️';
+
+//     document.querySelector('.diwas').addEventListener('click', function () {
+//         this.innerHTML = '↗️';
+//     })
+
+
+
+
+// }
 //  dark.innerHTML = `<i class="fa-solid fa-sun "></i>`;
 // `<i class="fa-regular fa-moon"></i>`;
 

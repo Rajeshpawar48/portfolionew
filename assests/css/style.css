@@ -1116,6 +1116,9 @@ footer {
     ;
     align-items: center;
 }
+.footerright a{
+    color: #6b47cd;
+}
 .linkin a{
     color: #6b47cd;
 }
@@ -1135,4 +1138,24 @@ footer {
 li >a{
     color: #6b47cd;
     font-weight:600;
+}
+.light{
+    background-color: black;
+    color: white;
+}
+
+.light2 {
+    background-color: black;
+    color: black;
+}
+
+.light5{
+    background-color: black;
+    color:black;
+
+    /* border: 10px solid black; */
+}
+
+.diwas::before{
+    display: none;
 }
