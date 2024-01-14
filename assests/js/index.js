@@ -7,10 +7,11 @@ function fun(){
         document.querySelector('.section1').classList.toggle('light')
     document.querySelector('.section2').classList.toggle('light')
     document.querySelector('.section3').classList.toggle('light')
+    document.querySelector('.skills').classList.toggle('light5')
     document.querySelector('.scetion4').classList.toggle('light2')
     document.querySelector('.section5').classList.toggle('light')
     document.querySelector('.section6').classList.toggle('light')
-    document.querySelector('.footer').classList.toggle('light5');
+    // document.querySelector('.footer').classList.toggle('light5');
     document.querySelector('.footerleft').classList.toggle('light');
     document.querySelector('.footerright').classList.toggle('light');
 
