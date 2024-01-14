@@ -47,18 +47,19 @@ html {
     ;
 }
 
-.h1:after{
-  content: 'pawar';
-  color:#6b47cd;
-  position: relative;
-  top:20px;
-  
+.h1:after {
+    content: 'pawar';
+    color: #6b47cd;
+    position: relative;
+    top: 20px;
+
     /* position: absolute; */
     /* left:40px; */
     line-height: 0.4;
     right: 50px;
     font-size: large;
 }
+
 .menu {
     padding-left: 13%;
     width: 60%;
@@ -213,7 +214,7 @@ html {
 
 .button {
     padding-top: 8%;
-/* border-radius: 30px; */
+    /* border-radius: 30px; */
     /* border: 1px solid black; */
 }
 
@@ -961,8 +962,9 @@ html {
     /* padding: 1%; */
     border-radius: 10px;
 }
-.contacthead h1{
-    border-radius:10px
+
+.contacthead h1 {
+    border-radius: 10px
 }
 
 .contactform {
@@ -1116,30 +1118,33 @@ footer {
     ;
     align-items: center;
 }
-.footerright a{
-    color: #6b47cd;
-}
-.linkin a{
+
+.footerright a {
     color: #6b47cd;
 }
 
-.github a{
+.linkin a {
     color: #6b47cd;
 }
 
-.telegram a{
+.github a {
     color: #6b47cd;
 }
 
-.btn :nth-child(1){
+.telegram a {
+    color: #6b47cd;
+}
+
+.btn :nth-child(1) {
     border-radius: 10px;
 }
 
-li >a{
+li>a {
     color: #6b47cd;
-    font-weight:600;
+    font-weight: 600;
 }
-.light{
+
+.light {
     background-color: black;
     color: white;
 }
@@ -1149,13 +1154,68 @@ li >a{
     color: black;
 }
 
-.light5{
+.light5 {
     background-color: black;
-    color:black;
+    color: black;
 
     /* border: 10px solid black; */
 }
 
-.diwas::before{
+.diwas::before {
     display: none;
+}
+
+.tpp {
+    display: none;
+}
+
+@media only screen and (min-width:100px) and (max-width:700px) {
+    .tpp {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 3%;
+        ;
+        text-align: center;
+        align-items: center;
+        background-color: #dfdcdc;
+    }
+
+    .insidetp {
+        width: 100%;
+        padding: 3%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        /* gap: 10% */
+        position: fixed;
+        bottom: 0px;
+        background-color: #dfdcdc;
+        ;
+    }
+
+    .insidetp .ghar a {
+        color: black;
+    }
+
+    .insidetp .abt a {
+        color: black;
+    }
+
+    .insidetp .talent a {
+        color: black;
+    }
+
+    .insidetp .kam a {
+        color: black;
+    }
+
+    .insidetp .number a {
+        color: black;
+    }
+
+    .insidetp .ghar a:active {
+        color: black
+    }
 }
